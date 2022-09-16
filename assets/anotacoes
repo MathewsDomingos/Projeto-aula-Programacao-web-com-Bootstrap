@@ -1,0 +1,2 @@
+Criar servidor local PHP
+php -S localhost:8000
