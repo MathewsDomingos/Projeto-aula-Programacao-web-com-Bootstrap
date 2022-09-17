@@ -6,7 +6,7 @@ include("./cabecalho.php");?>
     <div class="offset-4 col-4">
         <h1>Formulario de cadastro</h1>
 
-        <form action="./salvar_usuario.php">
+        <form action="./salvar_usuario.php" method="post">
             <div class="mb-3">
                 <label class="form-label">Email address</label>
                 <input type="email" class="form-control" name="email" placeholder="name@example.com">
@@ -30,7 +30,7 @@ include("./cabecalho.php");?>
             <div class="mb-3">
                 <button class="btn btn-success" type="submit">Enviar</button>
             </div>
-
+            
         </form>
     </div>
 </div>

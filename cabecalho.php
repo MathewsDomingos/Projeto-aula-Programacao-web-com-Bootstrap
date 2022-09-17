@@ -21,12 +21,14 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Usuarios
           </a>
+
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="./cadastro_usuario.php">Cadastrar</a></li>
             <li><a class="dropdown-item" href="#">Pesquisar</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Bloquear</a></li>
           </ul>
+          
         </li>
       </ul>
     </div>
